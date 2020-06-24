@@ -1,0 +1,3 @@
+KLEE: Using STP solver backend
+KLEE: ERROR: k_sudoku.c:76: ASSERTION FAIL: 0
+KLEE: NOTE: now ignoring this error at this location

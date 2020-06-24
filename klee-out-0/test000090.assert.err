@@ -1,0 +1,9 @@
+Error: ASSERTION FAIL: 0
+File: k_sudoku.c
+Line: 76
+assembly.ll line: 8921
+Stack: 
+	#000008921 in __klee_posix_wrapped_main () at k_sudoku.c:76
+	#100007087 in __user_main (=1, =94727406243776, =94727406243792) at /home/celina/klee/runtime/POSIX/klee_init_env.c:245
+	#200000532 in __uClibc_main (=94727407511816, =1, =94727406243776, =0, =0, =0, =0) at libc/misc/internals/__uClibc_main.c:401
+	#300000699 in main (=1, =94727406243776)
